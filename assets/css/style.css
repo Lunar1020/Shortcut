@@ -178,7 +178,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #fff;
+  background: #333;
   transition: all 0.5s;
   z-index: 997;
   height: 86px;
@@ -199,7 +199,7 @@ h6 {
 }
 
 #header .logo a {
-  color: #222222;
+  color: #ffffff;
 }
 
 #header .logo a span {
@@ -249,7 +249,7 @@ h6 {
   padding: 0 3px;
   font-size: 15px;
   font-weight: 600;
-  color: #222222;
+  color: #ffffff;
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
@@ -613,6 +613,25 @@ h6 {
 #karyl .btn-karyl:hover {
   background: #0077ed;
 }
+
+#shortcuts-id .btn-shortcuts-id:hover {
+  background: #0077ed;
+}
+
+#shortcuts-id .btn-shortcuts-id {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #0071e3;
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -657,6 +676,21 @@ section {
 .section-title p {
   margin: 15px auto 0 auto;
   font-weight: 600;
+}
+
+body::-webkit-scrollbar {
+  width: 16px;
+}
+body::-webkit-scrollbar-track {
+  background-color: #d6d6d6;
+  border-radius: 100px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #fbfbfd;
+  border-radius: 100px;
+}
+body {
+  scrollbar-color: #fbfbfd #d6d6d6;
 }
 
 @media (min-width: 1024px) {
